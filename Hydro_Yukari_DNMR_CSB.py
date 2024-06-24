@@ -26,6 +26,8 @@ print('Got into hydro!')
 
 # In this file, the equation of state is also passed in as an argument since the goal
 # was to compare different EoS's
+# This is where you need to make changes. You may have your own system for what you pass in as your EoS locations
+# but the bones of how to pass in a location is already there in these files submitted together
 eos = sys.argv[1]
 etaPath = '/projects/jnorhos/tdore/EoS_gen/eos_with_critical_point/yukari_travis_modified'
 eosPath = etaPath+'/'+eos+'_DILLED/GridSpacing_0.10'
